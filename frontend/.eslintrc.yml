@@ -1,0 +1,19 @@
+env:
+  browser: true
+  es6: true
+parser: babel-eslint
+parserOptions:
+  sourceType: module
+rules:
+  no-alert: error
+  no-global-assign: error
+  no-implicit-globals: error
+  no-undef: error
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: true
+globals:
+  require: true
+  process: true
